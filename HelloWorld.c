@@ -1,8 +1,10 @@
-#include<stdio.h>	//printf函数的头文件
+#include<stdio.h>	//header
+#include<conio.h>
 
-int main()	//main函数现在的标准是int型的，不能写成void main
+void main()	//main函数现在的标准是int型的，不能写成void main
 {
-    printf("Hello World!\n");	//输出内容
+    printf("Hello World!\n");	//print//输出内容
 
-    return 0;	//表示函数结束
+    //we don't need to write return0 because we have written void main 
+    //return 0;	//表示函数结束
 }
